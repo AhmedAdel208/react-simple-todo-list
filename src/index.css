@@ -46,6 +46,14 @@ input[type="text"] {
   color: black;
   outline: none;
 }
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 80%;
+  }
+  .add-btn {
+    width: 20%;
+  }
+}
 ol {
   padding: 0;
 }
